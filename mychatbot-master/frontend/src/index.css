@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.0;
+  font-weight: 600;
+  color: #000;
+  background: linear-gradient(to right, rgb(255, 166, 0), hsl(318, 92%, 55%));
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body{
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3.0em;
+  line-height: 1.0;
+  text-align: left;
+  margin-bottom: 50px;
+  top: 0;
+  color: #2c0170;
+}
+
+main{
+  max-width: 800px;
+  margin: auto;
+}
+
+p{
+  background-color: #D7C4F6;
+  max-width: 70%;
+  padding: 15px;
+  border-radius: 30px;
+  border: 2px solid #000;
+}
+
+p span{
+  margin: 5px;
+}
+
+p span:first-child{
+  margin-right: 0;
+}
+
+.user_msg{
+  text-align: right;
+  margin-left: 30%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+form{
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
+input{
+  width: 100%;
+  height: 40px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 1rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+input:focus{
+  outline: none;
+}
